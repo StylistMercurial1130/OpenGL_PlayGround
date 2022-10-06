@@ -1,0 +1,6 @@
+D:/Repos/OpenGL_PlayGround/build/CMakeFiles/sandbox.dir
+D:/Repos/OpenGL_PlayGround/build/CMakeFiles/edit_cache.dir
+D:/Repos/OpenGL_PlayGround/build/CMakeFiles/rebuild_cache.dir
+D:/Repos/OpenGL_PlayGround/build/Dependencies/glad/CMakeFiles/glad.dir
+D:/Repos/OpenGL_PlayGround/build/Dependencies/glad/CMakeFiles/edit_cache.dir
+D:/Repos/OpenGL_PlayGround/build/Dependencies/glad/CMakeFiles/rebuild_cache.dir

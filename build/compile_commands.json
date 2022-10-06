@@ -1,0 +1,12 @@
+[
+{
+  "directory": "D:/Repos/OpenGL_PlayGround/build",
+  "command": "D:\\C_C++\\MinGW\\mingw64\\bin\\gcc.exe -DGLFW_DLL @CMakeFiles/sandbox.dir/includes_C.rsp -std=gnu17 -o CMakeFiles\\sandbox.dir\\main.c.obj -c D:\\Repos\\OpenGL_PlayGround\\main.c",
+  "file": "D:/Repos/OpenGL_PlayGround/main.c"
+},
+{
+  "directory": "D:/Repos/OpenGL_PlayGround/build/Dependencies/glad",
+  "command": "D:\\C_C++\\MinGW\\mingw64\\bin\\gcc.exe  @CMakeFiles/glad.dir/includes_C.rsp -std=gnu17 -o CMakeFiles\\glad.dir\\src\\glad.c.obj -c D:\\Repos\\OpenGL_PlayGround\\Dependencies\\glad\\src\\glad.c",
+  "file": "D:/Repos/OpenGL_PlayGround/Dependencies/glad/src/glad.c"
+}
+]
