@@ -8,5 +8,10 @@
   "directory": "D:/Repos/OpenGL_PlayGround/build/Dependencies/glad",
   "command": "D:\\C_C++\\MinGW\\mingw64\\bin\\gcc.exe  @CMakeFiles/glad.dir/includes_C.rsp -std=gnu17 -o CMakeFiles\\glad.dir\\src\\glad.c.obj -c D:\\Repos\\OpenGL_PlayGround\\Dependencies\\glad\\src\\glad.c",
   "file": "D:/Repos/OpenGL_PlayGround/Dependencies/glad/src/glad.c"
+},
+{
+  "directory": "D:/Repos/OpenGL_PlayGround/build/Dependencies/stb",
+  "command": "D:\\C_C++\\MinGW\\mingw64\\bin\\gcc.exe  @CMakeFiles/stb_image.dir/includes_C.rsp -std=gnu17 -o CMakeFiles\\stb_image.dir\\src\\stb_image.c.obj -c D:\\Repos\\OpenGL_PlayGround\\Dependencies\\stb\\src\\stb_image.c",
+  "file": "D:/Repos/OpenGL_PlayGround/Dependencies/stb/src/stb_image.c"
 }
 ]

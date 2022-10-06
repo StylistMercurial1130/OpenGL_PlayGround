@@ -13,9 +13,11 @@ project(OpenGL_PlayGround)
 find_package(glfw3 3.3 REQUIRED)
 
 add_subdirectory(${CMAKE_SOURCE_DIR}/Dependencies/glad/)
+add_subdirectory(${CMAKE_SOURCE_DIR}/Dependencies/stb/)
 
 add_executable(sandbox main.c)
 target_include_directories(sandbox	PRIVATE	 ${CMAKE_SOURCE_DIR}/Dependencies/glfw-3.3.8/install/include)
 target_link_libraries(sandbox PRIVATE glfw)
 target_link_libraries(sandbox PRIVATE glad)
+target_link_libraries(sandbox PRIVATE stb_image)
 

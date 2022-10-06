@@ -94,6 +94,7 @@ sandbox.exe: CMakeFiles/sandbox.dir/main.c.obj
 sandbox.exe: CMakeFiles/sandbox.dir/build.make
 sandbox.exe: D:/Repos/OpenGL_PlayGround/Dependencies/glfw-3.3.8/install/lib/libglfw3dll.a
 sandbox.exe: Dependencies/glad/libglad.a
+sandbox.exe: Dependencies/stb/libstb_image.a
 sandbox.exe: CMakeFiles/sandbox.dir/linklibs.rsp
 sandbox.exe: CMakeFiles/sandbox.dir/objects1.rsp
 sandbox.exe: CMakeFiles/sandbox.dir/link.txt

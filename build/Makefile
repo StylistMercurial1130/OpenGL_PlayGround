@@ -141,6 +141,19 @@ glad/fast:
 	$(MAKE) $(MAKESILENT) -f Dependencies\glad\CMakeFiles\glad.dir\build.make Dependencies/glad/CMakeFiles/glad.dir/build
 .PHONY : glad/fast
 
+#=============================================================================
+# Target rules for targets named stb_image
+
+# Build rule for target.
+stb_image: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 stb_image
+.PHONY : stb_image
+
+# fast build rule for target.
+stb_image/fast:
+	$(MAKE) $(MAKESILENT) -f Dependencies\stb\CMakeFiles\stb_image.dir\build.make Dependencies/stb/CMakeFiles/stb_image.dir/build
+.PHONY : stb_image/fast
+
 main.obj: main.c.obj
 .PHONY : main.obj
 
@@ -175,6 +188,7 @@ help:
 	@echo ... rebuild_cache
 	@echo ... glad
 	@echo ... sandbox
+	@echo ... stb_image
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

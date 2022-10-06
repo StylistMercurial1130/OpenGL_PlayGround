@@ -257,6 +257,15 @@ OpenGL_PlayGround_SOURCE_DIR:STATIC=D:/Repos/OpenGL_PlayGround
 //The directory containing a CMake configuration file for glfw3.
 glfw3_DIR:PATH=D:/Repos/OpenGL_PlayGround/Dependencies/glfw-3.3.8/install/lib/cmake/glfw3
 
+//Value Computed by CMake
+stb_image_BINARY_DIR:STATIC=D:/Repos/OpenGL_PlayGround/build/Dependencies/stb
+
+//Value Computed by CMake
+stb_image_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+stb_image_SOURCE_DIR:STATIC=D:/Repos/OpenGL_PlayGround/Dependencies/stb
+
 
 ########################
 # INTERNAL cache entries
@@ -364,7 +373,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=3
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

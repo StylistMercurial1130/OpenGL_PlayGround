@@ -34,6 +34,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "D:/Repos/OpenGL_PlayGround/Dependencies/glfw-3.3.8/install/lib/cmake/glfw3/glfw3ConfigVersion.cmake"
   "D:/Repos/OpenGL_PlayGround/Dependencies/glfw-3.3.8/install/lib/cmake/glfw3/glfw3Targets-noconfig.cmake"
   "D:/Repos/OpenGL_PlayGround/Dependencies/glfw-3.3.8/install/lib/cmake/glfw3/glfw3Targets.cmake"
+  "D:/Repos/OpenGL_PlayGround/Dependencies/stb/CMakeLists.txt"
   "CMakeFiles/3.24.0-rc1/CMakeCCompiler.cmake"
   "CMakeFiles/3.24.0-rc1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.24.0-rc1/CMakeRCCompiler.cmake"
@@ -50,10 +51,12 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "Dependencies/glad/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Dependencies/stb/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/sandbox.dir/DependInfo.cmake"
   "Dependencies/glad/CMakeFiles/glad.dir/DependInfo.cmake"
+  "Dependencies/stb/CMakeFiles/stb_image.dir/DependInfo.cmake"
   )
