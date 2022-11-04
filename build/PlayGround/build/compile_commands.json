@@ -1,0 +1,17 @@
+[
+{
+  "directory": "D:/Repos/OpenGL_PlayGround/Build/PlayGround/build",
+  "command": "D:\\C_C++\\MinGW\\mingw64\\bin\\c++.exe  @CMakeFiles/opengl_playground.dir/includes_CXX.rsp -std=gnu++17 -o CMakeFiles\\opengl_playground.dir\\main.cpp.obj -c D:\\Repos\\OpenGL_PlayGround\\Build\\PlayGround\\main.cpp",
+  "file": "D:/Repos/OpenGL_PlayGround/Build/PlayGround/main.cpp"
+},
+{
+  "directory": "D:/Repos/OpenGL_PlayGround/Build/PlayGround/build/glad",
+  "command": "D:\\C_C++\\MinGW\\mingw64\\bin\\gcc.exe  @CMakeFiles/glad.dir/includes_C.rsp -std=gnu17 -o CMakeFiles\\glad.dir\\src\\glad.c.obj -c D:\\Repos\\OpenGL_PlayGround\\External\\glad\\src\\glad.c",
+  "file": "D:/Repos/OpenGL_PlayGround/External/glad/src/glad.c"
+},
+{
+  "directory": "D:/Repos/OpenGL_PlayGround/Build/PlayGround/build/stb",
+  "command": "D:\\C_C++\\MinGW\\mingw64\\bin\\c++.exe  @CMakeFiles/stb.dir/includes_CXX.rsp -std=gnu++17 -o CMakeFiles\\stb.dir\\src\\stb_image.cpp.obj -c D:\\Repos\\OpenGL_PlayGround\\External\\STB\\src\\stb_image.cpp",
+  "file": "D:/Repos/OpenGL_PlayGround/External/STB/src/stb_image.cpp"
+}
+]
