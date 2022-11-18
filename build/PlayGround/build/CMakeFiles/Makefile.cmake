@@ -28,17 +28,17 @@ set(CMAKE_MAKEFILE_DEPENDS
   "D:/CMake/share/cmake-3.24/Modules/Platform/Windows-windres.cmake"
   "D:/CMake/share/cmake-3.24/Modules/Platform/Windows.cmake"
   "D:/CMake/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake"
-  "D:/Repos/OpenGL_PlayGround/Build/PlayGround/CMakeLists.txt"
-  "CMakeFiles/3.24.0-rc1/CMakeCCompiler.cmake"
-  "CMakeFiles/3.24.0-rc1/CMakeCXXCompiler.cmake"
-  "CMakeFiles/3.24.0-rc1/CMakeRCCompiler.cmake"
-  "CMakeFiles/3.24.0-rc1/CMakeSystem.cmake"
   "D:/Repos/OpenGL_PlayGround/External/STB/CMakeLists.txt"
   "D:/Repos/OpenGL_PlayGround/External/glad/CMakeLists.txt"
   "D:/Repos/OpenGL_PlayGround/External/glfw-3.3.8/install/lib/cmake/glfw3/glfw3Config.cmake"
   "D:/Repos/OpenGL_PlayGround/External/glfw-3.3.8/install/lib/cmake/glfw3/glfw3ConfigVersion.cmake"
   "D:/Repos/OpenGL_PlayGround/External/glfw-3.3.8/install/lib/cmake/glfw3/glfw3Targets-noconfig.cmake"
   "D:/Repos/OpenGL_PlayGround/External/glfw-3.3.8/install/lib/cmake/glfw3/glfw3Targets.cmake"
+  "D:/Repos/OpenGL_PlayGround/build/playground/CMakeLists.txt"
+  "CMakeFiles/3.24.0-rc1/CMakeCCompiler.cmake"
+  "CMakeFiles/3.24.0-rc1/CMakeCXXCompiler.cmake"
+  "CMakeFiles/3.24.0-rc1/CMakeRCCompiler.cmake"
+  "CMakeFiles/3.24.0-rc1/CMakeSystem.cmake"
   )
 
 # The corresponding makefile is:

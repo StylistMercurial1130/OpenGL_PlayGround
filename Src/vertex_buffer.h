@@ -6,11 +6,12 @@
 #include <map>
 #include <vector>
 
-
 class Vertex_Buffer_Registry {
 public:
 	static unsigned int Gen_Vertex_Buffer(std::vector<float> &vertex_data);
 	static std::vector<float> Buffer_Data(unsigned int vbo_id);
+	static bool Bind_Vertex_Buffer_Object(unsigned int vbo_id);
+	static bool Un_Bind_Vertex_Buffer(unsigned int vbo_id);
 };
 
 #endif

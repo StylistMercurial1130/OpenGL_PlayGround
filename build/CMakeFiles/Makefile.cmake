@@ -29,12 +29,12 @@ set(CMAKE_MAKEFILE_DEPENDS
   "D:/CMake/share/cmake-3.24/Modules/Platform/Windows.cmake"
   "D:/CMake/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake"
   "D:/Repos/OpenGL_PlayGround/CMakeLists.txt"
-  "D:/Repos/OpenGL_PlayGround/Dependencies/glad/CMakeLists.txt"
-  "D:/Repos/OpenGL_PlayGround/Dependencies/glfw-3.3.8/install/lib/cmake/glfw3/glfw3Config.cmake"
-  "D:/Repos/OpenGL_PlayGround/Dependencies/glfw-3.3.8/install/lib/cmake/glfw3/glfw3ConfigVersion.cmake"
-  "D:/Repos/OpenGL_PlayGround/Dependencies/glfw-3.3.8/install/lib/cmake/glfw3/glfw3Targets-noconfig.cmake"
-  "D:/Repos/OpenGL_PlayGround/Dependencies/glfw-3.3.8/install/lib/cmake/glfw3/glfw3Targets.cmake"
-  "D:/Repos/OpenGL_PlayGround/Dependencies/stb/CMakeLists.txt"
+  "D:/Repos/OpenGL_PlayGround/External/STB/CMakeLists.txt"
+  "D:/Repos/OpenGL_PlayGround/External/glad/CMakeLists.txt"
+  "D:/Repos/OpenGL_PlayGround/External/glfw-3.3.8/install/lib/cmake/glfw3/glfw3Config.cmake"
+  "D:/Repos/OpenGL_PlayGround/External/glfw-3.3.8/install/lib/cmake/glfw3/glfw3ConfigVersion.cmake"
+  "D:/Repos/OpenGL_PlayGround/External/glfw-3.3.8/install/lib/cmake/glfw3/glfw3Targets-noconfig.cmake"
+  "D:/Repos/OpenGL_PlayGround/External/glfw-3.3.8/install/lib/cmake/glfw3/glfw3Targets.cmake"
   "CMakeFiles/3.24.0-rc1/CMakeCCompiler.cmake"
   "CMakeFiles/3.24.0-rc1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.24.0-rc1/CMakeRCCompiler.cmake"
@@ -50,13 +50,13 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "Dependencies/glad/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "Dependencies/stb/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "External/STB/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "External/glad/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/sandbox.dir/DependInfo.cmake"
-  "Dependencies/glad/CMakeFiles/glad.dir/DependInfo.cmake"
-  "Dependencies/stb/CMakeFiles/stb_image.dir/DependInfo.cmake"
+  "External/STB/CMakeFiles/stb.dir/DependInfo.cmake"
+  "External/glad/CMakeFiles/glad.dir/DependInfo.cmake"
   )

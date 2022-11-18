@@ -84,6 +84,51 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+.PHONY : list_install_components/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	D:\CMake\bin\cmake.exe -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	D:\CMake\bin\cmake.exe -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	D:\CMake\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	D:\CMake\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	D:\CMake\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	D:\CMake\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
+
 # The main all target
 all: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Repos\OpenGL_PlayGround\build\CMakeFiles D:\Repos\OpenGL_PlayGround\build\\CMakeFiles\progress.marks
@@ -129,6 +174,19 @@ sandbox/fast:
 .PHONY : sandbox/fast
 
 #=============================================================================
+# Target rules for targets named stb
+
+# Build rule for target.
+stb: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 stb
+.PHONY : stb
+
+# fast build rule for target.
+stb/fast:
+	$(MAKE) $(MAKESILENT) -f External\STB\CMakeFiles\stb.dir\build.make External/STB/CMakeFiles/stb.dir/build
+.PHONY : stb/fast
+
+#=============================================================================
 # Target rules for targets named glad
 
 # Build rule for target.
@@ -138,45 +196,104 @@ glad: cmake_check_build_system
 
 # fast build rule for target.
 glad/fast:
-	$(MAKE) $(MAKESILENT) -f Dependencies\glad\CMakeFiles\glad.dir\build.make Dependencies/glad/CMakeFiles/glad.dir/build
+	$(MAKE) $(MAKESILENT) -f External\glad\CMakeFiles\glad.dir\build.make External/glad/CMakeFiles/glad.dir/build
 .PHONY : glad/fast
 
-#=============================================================================
-# Target rules for targets named stb_image
-
-# Build rule for target.
-stb_image: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 stb_image
-.PHONY : stb_image
-
-# fast build rule for target.
-stb_image/fast:
-	$(MAKE) $(MAKESILENT) -f Dependencies\stb\CMakeFiles\stb_image.dir\build.make Dependencies/stb/CMakeFiles/stb_image.dir/build
-.PHONY : stb_image/fast
-
-main.obj: main.c.obj
-.PHONY : main.obj
+Src/index_buffer.obj: Src/index_buffer.cpp.obj
+.PHONY : Src/index_buffer.obj
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sandbox.dir\build.make CMakeFiles/sandbox.dir/main.c.obj
-.PHONY : main.c.obj
+Src/index_buffer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sandbox.dir\build.make CMakeFiles/sandbox.dir/Src/index_buffer.cpp.obj
+.PHONY : Src/index_buffer.cpp.obj
 
-main.i: main.c.i
-.PHONY : main.i
+Src/index_buffer.i: Src/index_buffer.cpp.i
+.PHONY : Src/index_buffer.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sandbox.dir\build.make CMakeFiles/sandbox.dir/main.c.i
-.PHONY : main.c.i
+Src/index_buffer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sandbox.dir\build.make CMakeFiles/sandbox.dir/Src/index_buffer.cpp.i
+.PHONY : Src/index_buffer.cpp.i
 
-main.s: main.c.s
-.PHONY : main.s
+Src/index_buffer.s: Src/index_buffer.cpp.s
+.PHONY : Src/index_buffer.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sandbox.dir\build.make CMakeFiles/sandbox.dir/main.c.s
-.PHONY : main.c.s
+Src/index_buffer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sandbox.dir\build.make CMakeFiles/sandbox.dir/Src/index_buffer.cpp.s
+.PHONY : Src/index_buffer.cpp.s
+
+Src/vertex_array.obj: Src/vertex_array.cpp.obj
+.PHONY : Src/vertex_array.obj
+
+# target to build an object file
+Src/vertex_array.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sandbox.dir\build.make CMakeFiles/sandbox.dir/Src/vertex_array.cpp.obj
+.PHONY : Src/vertex_array.cpp.obj
+
+Src/vertex_array.i: Src/vertex_array.cpp.i
+.PHONY : Src/vertex_array.i
+
+# target to preprocess a source file
+Src/vertex_array.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sandbox.dir\build.make CMakeFiles/sandbox.dir/Src/vertex_array.cpp.i
+.PHONY : Src/vertex_array.cpp.i
+
+Src/vertex_array.s: Src/vertex_array.cpp.s
+.PHONY : Src/vertex_array.s
+
+# target to generate assembly for a file
+Src/vertex_array.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sandbox.dir\build.make CMakeFiles/sandbox.dir/Src/vertex_array.cpp.s
+.PHONY : Src/vertex_array.cpp.s
+
+Src/vertex_buffer.obj: Src/vertex_buffer.cpp.obj
+.PHONY : Src/vertex_buffer.obj
+
+# target to build an object file
+Src/vertex_buffer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sandbox.dir\build.make CMakeFiles/sandbox.dir/Src/vertex_buffer.cpp.obj
+.PHONY : Src/vertex_buffer.cpp.obj
+
+Src/vertex_buffer.i: Src/vertex_buffer.cpp.i
+.PHONY : Src/vertex_buffer.i
+
+# target to preprocess a source file
+Src/vertex_buffer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sandbox.dir\build.make CMakeFiles/sandbox.dir/Src/vertex_buffer.cpp.i
+.PHONY : Src/vertex_buffer.cpp.i
+
+Src/vertex_buffer.s: Src/vertex_buffer.cpp.s
+.PHONY : Src/vertex_buffer.s
+
+# target to generate assembly for a file
+Src/vertex_buffer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sandbox.dir\build.make CMakeFiles/sandbox.dir/Src/vertex_buffer.cpp.s
+.PHONY : Src/vertex_buffer.cpp.s
+
+Src/window.obj: Src/window.cpp.obj
+.PHONY : Src/window.obj
+
+# target to build an object file
+Src/window.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sandbox.dir\build.make CMakeFiles/sandbox.dir/Src/window.cpp.obj
+.PHONY : Src/window.cpp.obj
+
+Src/window.i: Src/window.cpp.i
+.PHONY : Src/window.i
+
+# target to preprocess a source file
+Src/window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sandbox.dir\build.make CMakeFiles/sandbox.dir/Src/window.cpp.i
+.PHONY : Src/window.cpp.i
+
+Src/window.s: Src/window.cpp.s
+.PHONY : Src/window.s
+
+# target to generate assembly for a file
+Src/window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sandbox.dir\build.make CMakeFiles/sandbox.dir/Src/window.cpp.s
+.PHONY : Src/window.cpp.s
 
 # Help Target
 help:
@@ -185,13 +302,26 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... edit_cache
+	@echo ... install
+	@echo ... install/local
+	@echo ... install/strip
+	@echo ... list_install_components
 	@echo ... rebuild_cache
 	@echo ... glad
 	@echo ... sandbox
-	@echo ... stb_image
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... stb
+	@echo ... Src/index_buffer.obj
+	@echo ... Src/index_buffer.i
+	@echo ... Src/index_buffer.s
+	@echo ... Src/vertex_array.obj
+	@echo ... Src/vertex_array.i
+	@echo ... Src/vertex_array.s
+	@echo ... Src/vertex_buffer.obj
+	@echo ... Src/vertex_buffer.i
+	@echo ... Src/vertex_buffer.s
+	@echo ... Src/window.obj
+	@echo ... Src/window.i
+	@echo ... Src/window.s
 .PHONY : help
 
 

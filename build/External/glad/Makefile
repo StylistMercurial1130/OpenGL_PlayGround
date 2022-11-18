@@ -59,7 +59,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = D:\Repos\OpenGL_PlayGround
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Repos\OpenGL_PlayGround\Build
+CMAKE_BINARY_DIR = D:\Repos\OpenGL_PlayGround\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -131,14 +131,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d D:\Repos\OpenGL_PlayGround\Build && $(CMAKE_COMMAND) -E cmake_progress_start D:\Repos\OpenGL_PlayGround\Build\CMakeFiles D:\Repos\OpenGL_PlayGround\Build\External\glad\\CMakeFiles\progress.marks
-	cd /d D:\Repos\OpenGL_PlayGround\Build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 External/glad/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Repos\OpenGL_PlayGround\Build\CMakeFiles 0
+	cd /d D:\Repos\OpenGL_PlayGround\build && $(CMAKE_COMMAND) -E cmake_progress_start D:\Repos\OpenGL_PlayGround\build\CMakeFiles D:\Repos\OpenGL_PlayGround\build\External\glad\\CMakeFiles\progress.marks
+	cd /d D:\Repos\OpenGL_PlayGround\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 External/glad/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Repos\OpenGL_PlayGround\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d D:\Repos\OpenGL_PlayGround\Build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 External/glad/clean
+	cd /d D:\Repos\OpenGL_PlayGround\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 External/glad/clean
 .PHONY : clean
 
 # The main clean target
@@ -147,22 +147,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d D:\Repos\OpenGL_PlayGround\Build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 External/glad/preinstall
+	cd /d D:\Repos\OpenGL_PlayGround\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 External/glad/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d D:\Repos\OpenGL_PlayGround\Build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 External/glad/preinstall
+	cd /d D:\Repos\OpenGL_PlayGround\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 External/glad/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d D:\Repos\OpenGL_PlayGround\Build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d D:\Repos\OpenGL_PlayGround\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 External/glad/CMakeFiles/glad.dir/rule:
-	cd /d D:\Repos\OpenGL_PlayGround\Build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 External/glad/CMakeFiles/glad.dir/rule
+	cd /d D:\Repos\OpenGL_PlayGround\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 External/glad/CMakeFiles/glad.dir/rule
 .PHONY : External/glad/CMakeFiles/glad.dir/rule
 
 # Convenience name for target.
@@ -171,7 +171,7 @@ glad: External/glad/CMakeFiles/glad.dir/rule
 
 # fast build rule for target.
 glad/fast:
-	cd /d D:\Repos\OpenGL_PlayGround\Build && $(MAKE) $(MAKESILENT) -f External\glad\CMakeFiles\glad.dir\build.make External/glad/CMakeFiles/glad.dir/build
+	cd /d D:\Repos\OpenGL_PlayGround\build && $(MAKE) $(MAKESILENT) -f External\glad\CMakeFiles\glad.dir\build.make External/glad/CMakeFiles/glad.dir/build
 .PHONY : glad/fast
 
 src/glad.obj: src/glad.c.obj
@@ -179,7 +179,7 @@ src/glad.obj: src/glad.c.obj
 
 # target to build an object file
 src/glad.c.obj:
-	cd /d D:\Repos\OpenGL_PlayGround\Build && $(MAKE) $(MAKESILENT) -f External\glad\CMakeFiles\glad.dir\build.make External/glad/CMakeFiles/glad.dir/src/glad.c.obj
+	cd /d D:\Repos\OpenGL_PlayGround\build && $(MAKE) $(MAKESILENT) -f External\glad\CMakeFiles\glad.dir\build.make External/glad/CMakeFiles/glad.dir/src/glad.c.obj
 .PHONY : src/glad.c.obj
 
 src/glad.i: src/glad.c.i
@@ -187,7 +187,7 @@ src/glad.i: src/glad.c.i
 
 # target to preprocess a source file
 src/glad.c.i:
-	cd /d D:\Repos\OpenGL_PlayGround\Build && $(MAKE) $(MAKESILENT) -f External\glad\CMakeFiles\glad.dir\build.make External/glad/CMakeFiles/glad.dir/src/glad.c.i
+	cd /d D:\Repos\OpenGL_PlayGround\build && $(MAKE) $(MAKESILENT) -f External\glad\CMakeFiles\glad.dir\build.make External/glad/CMakeFiles/glad.dir/src/glad.c.i
 .PHONY : src/glad.c.i
 
 src/glad.s: src/glad.c.s
@@ -195,7 +195,7 @@ src/glad.s: src/glad.c.s
 
 # target to generate assembly for a file
 src/glad.c.s:
-	cd /d D:\Repos\OpenGL_PlayGround\Build && $(MAKE) $(MAKESILENT) -f External\glad\CMakeFiles\glad.dir\build.make External/glad/CMakeFiles/glad.dir/src/glad.c.s
+	cd /d D:\Repos\OpenGL_PlayGround\build && $(MAKE) $(MAKESILENT) -f External\glad\CMakeFiles\glad.dir\build.make External/glad/CMakeFiles/glad.dir/src/glad.c.s
 .PHONY : src/glad.c.s
 
 # Help Target
@@ -225,6 +225,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d D:\Repos\OpenGL_PlayGround\Build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d D:\Repos\OpenGL_PlayGround\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

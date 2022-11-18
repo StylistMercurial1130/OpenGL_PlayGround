@@ -68,41 +68,92 @@ include CMakeFiles/sandbox.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/sandbox.dir/flags.make
 
-CMakeFiles/sandbox.dir/main.c.obj: CMakeFiles/sandbox.dir/flags.make
-CMakeFiles/sandbox.dir/main.c.obj: CMakeFiles/sandbox.dir/includes_C.rsp
-CMakeFiles/sandbox.dir/main.c.obj: D:/Repos/OpenGL_PlayGround/main.c
-CMakeFiles/sandbox.dir/main.c.obj: CMakeFiles/sandbox.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Repos\OpenGL_PlayGround\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/sandbox.dir/main.c.obj"
-	D:\C_C++\MinGW\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sandbox.dir/main.c.obj -MF CMakeFiles\sandbox.dir\main.c.obj.d -o CMakeFiles\sandbox.dir\main.c.obj -c D:\Repos\OpenGL_PlayGround\main.c
+CMakeFiles/sandbox.dir/Src/index_buffer.cpp.obj: CMakeFiles/sandbox.dir/flags.make
+CMakeFiles/sandbox.dir/Src/index_buffer.cpp.obj: CMakeFiles/sandbox.dir/includes_CXX.rsp
+CMakeFiles/sandbox.dir/Src/index_buffer.cpp.obj: D:/Repos/OpenGL_PlayGround/Src/index_buffer.cpp
+CMakeFiles/sandbox.dir/Src/index_buffer.cpp.obj: CMakeFiles/sandbox.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Repos\OpenGL_PlayGround\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sandbox.dir/Src/index_buffer.cpp.obj"
+	D:\C_C++\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sandbox.dir/Src/index_buffer.cpp.obj -MF CMakeFiles\sandbox.dir\Src\index_buffer.cpp.obj.d -o CMakeFiles\sandbox.dir\Src\index_buffer.cpp.obj -c D:\Repos\OpenGL_PlayGround\Src\index_buffer.cpp
 
-CMakeFiles/sandbox.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sandbox.dir/main.c.i"
-	D:\C_C++\MinGW\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Repos\OpenGL_PlayGround\main.c > CMakeFiles\sandbox.dir\main.c.i
+CMakeFiles/sandbox.dir/Src/index_buffer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sandbox.dir/Src/index_buffer.cpp.i"
+	D:\C_C++\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Repos\OpenGL_PlayGround\Src\index_buffer.cpp > CMakeFiles\sandbox.dir\Src\index_buffer.cpp.i
 
-CMakeFiles/sandbox.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sandbox.dir/main.c.s"
-	D:\C_C++\MinGW\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Repos\OpenGL_PlayGround\main.c -o CMakeFiles\sandbox.dir\main.c.s
+CMakeFiles/sandbox.dir/Src/index_buffer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sandbox.dir/Src/index_buffer.cpp.s"
+	D:\C_C++\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Repos\OpenGL_PlayGround\Src\index_buffer.cpp -o CMakeFiles\sandbox.dir\Src\index_buffer.cpp.s
+
+CMakeFiles/sandbox.dir/Src/vertex_array.cpp.obj: CMakeFiles/sandbox.dir/flags.make
+CMakeFiles/sandbox.dir/Src/vertex_array.cpp.obj: CMakeFiles/sandbox.dir/includes_CXX.rsp
+CMakeFiles/sandbox.dir/Src/vertex_array.cpp.obj: D:/Repos/OpenGL_PlayGround/Src/vertex_array.cpp
+CMakeFiles/sandbox.dir/Src/vertex_array.cpp.obj: CMakeFiles/sandbox.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Repos\OpenGL_PlayGround\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sandbox.dir/Src/vertex_array.cpp.obj"
+	D:\C_C++\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sandbox.dir/Src/vertex_array.cpp.obj -MF CMakeFiles\sandbox.dir\Src\vertex_array.cpp.obj.d -o CMakeFiles\sandbox.dir\Src\vertex_array.cpp.obj -c D:\Repos\OpenGL_PlayGround\Src\vertex_array.cpp
+
+CMakeFiles/sandbox.dir/Src/vertex_array.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sandbox.dir/Src/vertex_array.cpp.i"
+	D:\C_C++\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Repos\OpenGL_PlayGround\Src\vertex_array.cpp > CMakeFiles\sandbox.dir\Src\vertex_array.cpp.i
+
+CMakeFiles/sandbox.dir/Src/vertex_array.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sandbox.dir/Src/vertex_array.cpp.s"
+	D:\C_C++\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Repos\OpenGL_PlayGround\Src\vertex_array.cpp -o CMakeFiles\sandbox.dir\Src\vertex_array.cpp.s
+
+CMakeFiles/sandbox.dir/Src/vertex_buffer.cpp.obj: CMakeFiles/sandbox.dir/flags.make
+CMakeFiles/sandbox.dir/Src/vertex_buffer.cpp.obj: CMakeFiles/sandbox.dir/includes_CXX.rsp
+CMakeFiles/sandbox.dir/Src/vertex_buffer.cpp.obj: D:/Repos/OpenGL_PlayGround/Src/vertex_buffer.cpp
+CMakeFiles/sandbox.dir/Src/vertex_buffer.cpp.obj: CMakeFiles/sandbox.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Repos\OpenGL_PlayGround\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/sandbox.dir/Src/vertex_buffer.cpp.obj"
+	D:\C_C++\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sandbox.dir/Src/vertex_buffer.cpp.obj -MF CMakeFiles\sandbox.dir\Src\vertex_buffer.cpp.obj.d -o CMakeFiles\sandbox.dir\Src\vertex_buffer.cpp.obj -c D:\Repos\OpenGL_PlayGround\Src\vertex_buffer.cpp
+
+CMakeFiles/sandbox.dir/Src/vertex_buffer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sandbox.dir/Src/vertex_buffer.cpp.i"
+	D:\C_C++\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Repos\OpenGL_PlayGround\Src\vertex_buffer.cpp > CMakeFiles\sandbox.dir\Src\vertex_buffer.cpp.i
+
+CMakeFiles/sandbox.dir/Src/vertex_buffer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sandbox.dir/Src/vertex_buffer.cpp.s"
+	D:\C_C++\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Repos\OpenGL_PlayGround\Src\vertex_buffer.cpp -o CMakeFiles\sandbox.dir\Src\vertex_buffer.cpp.s
+
+CMakeFiles/sandbox.dir/Src/window.cpp.obj: CMakeFiles/sandbox.dir/flags.make
+CMakeFiles/sandbox.dir/Src/window.cpp.obj: CMakeFiles/sandbox.dir/includes_CXX.rsp
+CMakeFiles/sandbox.dir/Src/window.cpp.obj: D:/Repos/OpenGL_PlayGround/Src/window.cpp
+CMakeFiles/sandbox.dir/Src/window.cpp.obj: CMakeFiles/sandbox.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Repos\OpenGL_PlayGround\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/sandbox.dir/Src/window.cpp.obj"
+	D:\C_C++\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sandbox.dir/Src/window.cpp.obj -MF CMakeFiles\sandbox.dir\Src\window.cpp.obj.d -o CMakeFiles\sandbox.dir\Src\window.cpp.obj -c D:\Repos\OpenGL_PlayGround\Src\window.cpp
+
+CMakeFiles/sandbox.dir/Src/window.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sandbox.dir/Src/window.cpp.i"
+	D:\C_C++\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Repos\OpenGL_PlayGround\Src\window.cpp > CMakeFiles\sandbox.dir\Src\window.cpp.i
+
+CMakeFiles/sandbox.dir/Src/window.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sandbox.dir/Src/window.cpp.s"
+	D:\C_C++\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Repos\OpenGL_PlayGround\Src\window.cpp -o CMakeFiles\sandbox.dir\Src\window.cpp.s
 
 # Object files for target sandbox
 sandbox_OBJECTS = \
-"CMakeFiles/sandbox.dir/main.c.obj"
+"CMakeFiles/sandbox.dir/Src/index_buffer.cpp.obj" \
+"CMakeFiles/sandbox.dir/Src/vertex_array.cpp.obj" \
+"CMakeFiles/sandbox.dir/Src/vertex_buffer.cpp.obj" \
+"CMakeFiles/sandbox.dir/Src/window.cpp.obj"
 
 # External object files for target sandbox
 sandbox_EXTERNAL_OBJECTS =
 
-sandbox.exe: CMakeFiles/sandbox.dir/main.c.obj
-sandbox.exe: CMakeFiles/sandbox.dir/build.make
-sandbox.exe: D:/Repos/OpenGL_PlayGround/Dependencies/glfw-3.3.8/install/lib/libglfw3dll.a
-sandbox.exe: Dependencies/glad/libglad.a
-sandbox.exe: Dependencies/stb/libstb_image.a
-sandbox.exe: CMakeFiles/sandbox.dir/linklibs.rsp
-sandbox.exe: CMakeFiles/sandbox.dir/objects1.rsp
-sandbox.exe: CMakeFiles/sandbox.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Repos\OpenGL_PlayGround\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable sandbox.exe"
+libsandbox.dll: CMakeFiles/sandbox.dir/Src/index_buffer.cpp.obj
+libsandbox.dll: CMakeFiles/sandbox.dir/Src/vertex_array.cpp.obj
+libsandbox.dll: CMakeFiles/sandbox.dir/Src/vertex_buffer.cpp.obj
+libsandbox.dll: CMakeFiles/sandbox.dir/Src/window.cpp.obj
+libsandbox.dll: CMakeFiles/sandbox.dir/build.make
+libsandbox.dll: D:/Repos/OpenGL_PlayGround/External/glfw-3.3.8/install/lib/libglfw3.a
+libsandbox.dll: External/glad/libglad.a
+libsandbox.dll: External/STB/libstb.a
+libsandbox.dll: CMakeFiles/sandbox.dir/linklibs.rsp
+libsandbox.dll: CMakeFiles/sandbox.dir/objects1.rsp
+libsandbox.dll: CMakeFiles/sandbox.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Repos\OpenGL_PlayGround\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libsandbox.dll"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\sandbox.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/sandbox.dir/build: sandbox.exe
+CMakeFiles/sandbox.dir/build: libsandbox.dll
 .PHONY : CMakeFiles/sandbox.dir/build
 
 CMakeFiles/sandbox.dir/clean:

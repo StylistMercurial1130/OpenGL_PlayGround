@@ -17,3 +17,17 @@ std::vector<float> Vertex_Buffer_Registry::Buffer_Data(unsigned int vbo_id) {
 		return vertex_buffer_object_map[vbo_id];
 	return {};
 }
+
+bool Vertex_Buffer_Registry::Bind_Vertex_Buffer_Object(unsigned int vbo_id) {
+	if(vertex_buffer_object_map.find(vbo_id) == vertex_buffer_object_map.end())
+		return false;
+	glBindBuffer(GL_ARRAY_BUFFER,vbo_id);
+	return true;
+}
+
+bool Vertex_Buffer_Registry::Un_Bind_Vertex_Buffer(unsigned int vbo_id) {
+	if(vertex_buffer_object_map.find(vbo_id) == vertex_buffer_object_map.end())
+		return false;
+	glBindBuffer(GL_ARRAY_BUFFER,0);
+	return true;
+}

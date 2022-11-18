@@ -7,11 +7,11 @@
 #include <vector>
 
 class Vertex_Buffer_Registry {
-private:
-	std::map<unsigned int,std::vector<float>> vbo_map;
 public:
-	unsigned int Generate_Vertex_Buffer(std::vector<float> &vertex_data);
-	std::vector<float> Get_Vertex_Data_From_Registry(unsigned int vbo_id);
+	static unsigned int Gen_Vertex_Buffer(std::vector<float> &vertex_data);
+	static std::vector<float> Buffer_Data(unsigned int vbo_id);
+	static bool Bind_Vertex_Buffer_Object(unsigned int vbo_id);
+	static bool Un_Bind_Vertex_Buffer(unsigned int vbo_id);
 };
 
 #endif

@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "D:/Repos/OpenGL_PlayGround/External/STB")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "D:/Repos/OpenGL_PlayGround/Build/PlayGround/build")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "D:/Repos/OpenGL_PlayGround/build/playground/build")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

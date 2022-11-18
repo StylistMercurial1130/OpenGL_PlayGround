@@ -1,17 +1,32 @@
 [
 {
   "directory": "D:/Repos/OpenGL_PlayGround/build",
-  "command": "D:\\C_C++\\MinGW\\mingw64\\bin\\gcc.exe -DGLFW_DLL @CMakeFiles/sandbox.dir/includes_C.rsp -std=gnu17 -o CMakeFiles\\sandbox.dir\\main.c.obj -c D:\\Repos\\OpenGL_PlayGround\\main.c",
-  "file": "D:/Repos/OpenGL_PlayGround/main.c"
+  "command": "D:\\C_C++\\MinGW\\mingw64\\bin\\c++.exe -Dsandbox_EXPORTS @CMakeFiles/sandbox.dir/includes_CXX.rsp -std=gnu++17 -o CMakeFiles\\sandbox.dir\\Src\\index_buffer.cpp.obj -c D:\\Repos\\OpenGL_PlayGround\\Src\\index_buffer.cpp",
+  "file": "D:/Repos/OpenGL_PlayGround/Src/index_buffer.cpp"
 },
 {
-  "directory": "D:/Repos/OpenGL_PlayGround/build/Dependencies/glad",
-  "command": "D:\\C_C++\\MinGW\\mingw64\\bin\\gcc.exe  @CMakeFiles/glad.dir/includes_C.rsp -std=gnu17 -o CMakeFiles\\glad.dir\\src\\glad.c.obj -c D:\\Repos\\OpenGL_PlayGround\\Dependencies\\glad\\src\\glad.c",
-  "file": "D:/Repos/OpenGL_PlayGround/Dependencies/glad/src/glad.c"
+  "directory": "D:/Repos/OpenGL_PlayGround/build",
+  "command": "D:\\C_C++\\MinGW\\mingw64\\bin\\c++.exe -Dsandbox_EXPORTS @CMakeFiles/sandbox.dir/includes_CXX.rsp -std=gnu++17 -o CMakeFiles\\sandbox.dir\\Src\\vertex_array.cpp.obj -c D:\\Repos\\OpenGL_PlayGround\\Src\\vertex_array.cpp",
+  "file": "D:/Repos/OpenGL_PlayGround/Src/vertex_array.cpp"
 },
 {
-  "directory": "D:/Repos/OpenGL_PlayGround/build/Dependencies/stb",
-  "command": "D:\\C_C++\\MinGW\\mingw64\\bin\\gcc.exe  @CMakeFiles/stb_image.dir/includes_C.rsp -std=gnu17 -o CMakeFiles\\stb_image.dir\\src\\stb_image.c.obj -c D:\\Repos\\OpenGL_PlayGround\\Dependencies\\stb\\src\\stb_image.c",
-  "file": "D:/Repos/OpenGL_PlayGround/Dependencies/stb/src/stb_image.c"
+  "directory": "D:/Repos/OpenGL_PlayGround/build",
+  "command": "D:\\C_C++\\MinGW\\mingw64\\bin\\c++.exe -Dsandbox_EXPORTS @CMakeFiles/sandbox.dir/includes_CXX.rsp -std=gnu++17 -o CMakeFiles\\sandbox.dir\\Src\\vertex_buffer.cpp.obj -c D:\\Repos\\OpenGL_PlayGround\\Src\\vertex_buffer.cpp",
+  "file": "D:/Repos/OpenGL_PlayGround/Src/vertex_buffer.cpp"
+},
+{
+  "directory": "D:/Repos/OpenGL_PlayGround/build",
+  "command": "D:\\C_C++\\MinGW\\mingw64\\bin\\c++.exe -Dsandbox_EXPORTS @CMakeFiles/sandbox.dir/includes_CXX.rsp -std=gnu++17 -o CMakeFiles\\sandbox.dir\\Src\\window.cpp.obj -c D:\\Repos\\OpenGL_PlayGround\\Src\\window.cpp",
+  "file": "D:/Repos/OpenGL_PlayGround/Src/window.cpp"
+},
+{
+  "directory": "D:/Repos/OpenGL_PlayGround/build/External/STB",
+  "command": "D:\\C_C++\\MinGW\\mingw64\\bin\\c++.exe  @CMakeFiles/stb.dir/includes_CXX.rsp -std=gnu++17 -o CMakeFiles\\stb.dir\\src\\stb_image.cpp.obj -c D:\\Repos\\OpenGL_PlayGround\\External\\STB\\src\\stb_image.cpp",
+  "file": "D:/Repos/OpenGL_PlayGround/External/STB/src/stb_image.cpp"
+},
+{
+  "directory": "D:/Repos/OpenGL_PlayGround/build/External/glad",
+  "command": "D:\\C_C++\\MinGW\\mingw64\\bin\\gcc.exe  @CMakeFiles/glad.dir/includes_C.rsp -std=gnu17 -o CMakeFiles\\glad.dir\\src\\glad.c.obj -c D:\\Repos\\OpenGL_PlayGround\\External\\glad\\src\\glad.c",
+  "file": "D:/Repos/OpenGL_PlayGround/External/glad/src/glad.c"
 }
 ]

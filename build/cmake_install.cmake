@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/OpenGL_PlayGround")
+  set(CMAKE_INSTALL_PREFIX "D:/Repos/OpenGL_PlayGround")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,12 +39,35 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/Repos/OpenGL_PlayGround/build/Dependencies/glad/cmake_install.cmake")
+  include("D:/Repos/OpenGL_PlayGround/build/External/STB/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/Repos/OpenGL_PlayGround/build/Dependencies/stb/cmake_install.cmake")
+  include("D:/Repos/OpenGL_PlayGround/build/External/glad/cmake_install.cmake")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Build/PlayGround/build" TYPE STATIC_LIBRARY OPTIONAL FILES "D:/Repos/OpenGL_PlayGround/build/libsandbox.dll.a")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Build/PlayGround/build" TYPE SHARED_LIBRARY FILES "D:/Repos/OpenGL_PlayGround/build/libsandbox.dll")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/Build/PlayGround/build/libsandbox.dll" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/Build/PlayGround/build/libsandbox.dll")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "D:/C_C++/MinGW/mingw64/bin/strip.exe" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/Build/PlayGround/build/libsandbox.dll")
+    endif()
+  endif()
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Build/PlayGround/include" TYPE FILE FILES
+    "D:/Repos/OpenGL_PlayGround/./Src/index_buffer.h"
+    "D:/Repos/OpenGL_PlayGround/./Src/vertex_array.h"
+    "D:/Repos/OpenGL_PlayGround/./Src/vertex_buffer.h"
+    "D:/Repos/OpenGL_PlayGround/./Src/window.h"
+    )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

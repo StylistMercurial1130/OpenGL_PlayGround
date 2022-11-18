@@ -22,5 +22,3 @@ target_include_directories(opengl_playground
 target_link_libraries(opengl_playground PRIVATE sandbox.dll)
 target_link_libraries(opengl_playground PRIVATE glad)
 target_link_libraries(opengl_playground PRIVATE stb)
-
-
